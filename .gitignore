@@ -1,0 +1,43 @@
+# Virtual environment
+.venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment variables and secrets
+*.env
+*.env.*
+
+# Logs and output
+*.log
+*.sqlite3
+*.db
+
+# Compiled files
+*.egg-info/
+dist/
+build/
+
+# Docker (if using)
+*.dockerignore
+
+# Node modules (if using frontend)
+node_modules/
+
+# Test coverage reports
+.coverage
+htmlcov/
+
+# FastAPI specific (optional)
+*.pid
